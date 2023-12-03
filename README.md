@@ -54,5 +54,58 @@
 ### Validação, GeekHub.Validation
 - Foi criada uma classe que herda da classe Exception com o propósito de validar as entidades do modelo de domínio, garantindo a integridade dos dados.
 
+Claro, vou criar um guia passo a passo para reproduzir uma API Web ASP.NET Core a partir de um repositório. Certifique-se de ter o ambiente .NET Core configurado em sua máquina antes de começar.
+
+## Como Reproduzir
+### Passo 1: Instalar as Ferramentas Necessárias
+
+Certifique-se de ter as seguintes ferramentas instaladas:
+
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) ou [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET Core SDK](https://dotnet.microsoft.com/download)
+
+### Passo 2: Clonar o Repositório
+
+Clone o repositório que contém a API Web ASP.NET Core. Você pode fazer isso usando o Git no terminal:
+
+```bash
+git clone https://github.com/IsaquePemasi/GeekHubApi
+```
+
+### Passo 3: Abrir o Projeto
+
+Navegue até o diretório clonado e abra o projeto usando o Visual Studio ou o Visual Studio Code:
+
+```bash
+cd GeekHubApi
+code .   # se estiver usando o Visual Studio Code
+```
+
+### Passo 4: Restaurar as Dependências
+
+Certifique-se de que todas as dependências do projeto estão instaladas. No terminal, execute o seguinte comando:
+
+```bash
+dotnet restore
+```
+
+### Passo 5: Configurar o Banco de Dados (se necessário)
+
+Você precisará configurá-lo, isso pode incluir a criação do banco de dados, aplicando migrações, etc. Execute os comandos apropriados, por exemplo:
+
+```bash
+dotnet ef database update
+```
+
+### Passo 6: Compilar e Executar a Aplicação
+
+Compile e execute a aplicação para garantir que tudo está funcionando corretamente. Execute o seguinte comando:
+
+```bash
+dotnet run
+```
+
+Acesse a API em um navegador ou usando uma ferramenta como [Swagger](https://swagger.io/) para testar os endpoints.
+
 <h2 align="center">Autor</h2>
 <a href="https://github.com/IsaquePemasi/"><img src="https://avatars.githubusercontent.com/u/76749511?v=4" width=115></a>
