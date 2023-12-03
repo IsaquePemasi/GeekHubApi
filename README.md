@@ -1,19 +1,37 @@
-# GeekHub API 
+<h1 align="center">GeekHub API</h1>
 
-## Sobre o Projeto 
+<p align="center">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/IsaquePemasi/GeekHubApi?color=56BEB8">
+
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/IsaquePemasi/GeekHubApi?color=56BEB8">
+
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/IsaquePemasi/GeekHubApi?color=56BEB8">
+
+  <img alt="Licença" src="https://img.shields.io/github/license/IsaquePemasi/GeekHubApi?color=56BEB8">
+</p>
+
+<p align="center">
+  <a href="#sobre-o-projeto">Sobre</a> &#xa0; | &#xa0;  
+  <a href="#vídeo-apresentação-do-projeto">Vídeo</a> &#xa0; | &#xa0;
+  <a href="#links-para-os-outros-projetos">Links para os outros projetos</a> &#xa0; | &#xa0;
+  <a href="#ferramentas-e-padrões-de-desenvolvimento-utilizados">Ferramentas utilizadas</a> &#xa0; | &#xa0;
+  <a href="#como-reproduzir">Como reproduzir</a> &#xa0; | &#xa0;
+  <a href="#autor" target="_blank">Autor</a>
+</p>
+
+<h2 align="center">Sobre o Projeto</h2> 
 - O GeekHub API faz parte de um conjunto de três projetos, desenvolvidos para a avaliação final da 5ª Academia de .NET. O projeto Final consiste de três aplicações (Front-End, Back-End e IA, para fazer conexão com ChatGPT e Gerador de imagens) que trabalham em conjunto, neste repositório encontra-se a parte API do Projeto, feita com ASPNET CORE.
 
 - O Back-End consiste de 8 pastas (Context, Controllers, DTOs, Entities, Mappings, Migrations, Repositories e Validation) que compõem uma API REST Sobre o Universo de Mangás e HQs, esta aplicação possui os dados dos mangás e/ou HQs presentes no GeekHub. A aplicação também possui um CRUD onde pode-se cadastrar, editar e remover novas HQs e/ou mangás. Essa aplicação utiliza Autenticação via Token JWT Bearer e CORS. Para realizar o cadastro, edição ou exclusão de HQs e/ou mangás será necessário estar autenticado na aplicação, para isso você  pode criar uma nova conta informando email e senha.
+<h2 align="center">Vídeo Apresentação do Projeto</h2>
 
-## Vídeo Apresentação do Projeto
 - [Apresentação do Projeto]()
+<h2 align="center">Links para os outros projetos</h2>
 
-## Links para os outros projetos
 [Front-End](https://github.com/IsaquePemasi/GeekHub)
 </br>
 [IAs](https://github.com/IsaquePemasi/GeekHubIA)
-
-## Ferramentas e padrões de desenvolvimento utilizados
+<h2 align="center">Ferramentas e padrões de desenvolvimento utilizados</h2>
 - C#
 - AspNetCore
 - Dotnet 7
@@ -27,8 +45,7 @@
 - CORS
 - AutoMapper 
 - EntityFrameWork
-
-## Compreendendo a Estrutura da Aplicação
+<h2 align="center">Compreendendo a Estrutura da Aplicação</h2>
 
 ### Contexto, GeekHub.Context
 - Este é o lugar onde o contexto do Entity Framework Core é definido, estabelecendo a base para interações com o banco de dados.
