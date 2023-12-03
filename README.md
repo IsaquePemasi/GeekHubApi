@@ -54,8 +54,6 @@
 ### Validação, GeekHub.Validation
 - Foi criada uma classe que herda da classe Exception com o propósito de validar as entidades do modelo de domínio, garantindo a integridade dos dados.
 
-Claro, vou criar um guia passo a passo para reproduzir uma API Web ASP.NET Core a partir de um repositório. Certifique-se de ter o ambiente .NET Core configurado em sua máquina antes de começar.
-
 ## Como Reproduzir
 ### Passo 1: Instalar as Ferramentas Necessárias
 
