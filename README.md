@@ -13,12 +13,11 @@
 <p align="center">
   <a href="#sobre-o-projeto">Sobre</a> &#xa0; | &#xa0;  
   <a href="#vídeo-apresentação-do-projeto">Vídeo</a> &#xa0; | &#xa0;
+  <a href="#links-para-os-outros-projetos">Links para os outros projetos</a> &#xa0; | &#xa0;
   <a href="#ferramentas-e-padrões-de-desenvolvimento-utilizados">Ferramentas utilizadas</a> &#xa0; | &#xa0;
-  <a href="#como-reproduzir">Como reproduzir</a> &#xa0; | &#xa0;
-  <a href="#autor" target="_blank">Autor</a>  &#xa0; | &#xa0;
   <a href="#compreendendo-a-estrutura-da-aplicação">Estrutura da Aplicação</a> &#xa0; | &#xa0;
-<a href="#links-para-os-outros-projetos">Links para os outros projetos</a> &#xa0; | &#xa0;
-
+  <a href="#como-reproduzir">Como reproduzir</a> &#xa0; | &#xa0;
+  <a href="#autor" target="_blank">Autor</a>
 </p>
 
 <h2 align="center">Sobre o Projeto</h2> 
