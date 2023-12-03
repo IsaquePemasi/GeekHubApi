@@ -15,6 +15,7 @@
   <a href="#vídeo-apresentação-do-projeto">Vídeo</a> &#xa0; | &#xa0;
   <a href="#links-para-os-outros-projetos">Links para os outros projetos</a> &#xa0; | &#xa0;
   <a href="#ferramentas-e-padrões-de-desenvolvimento-utilizados">Ferramentas utilizadas</a> &#xa0; | &#xa0;
+  <a href="#compreendendo-a-estrutura-da-aplicação">Estrutura da Aplicação</a> &#xa0; | &#xa0;
   <a href="#como-reproduzir">Como reproduzir</a> &#xa0; | &#xa0;
   <a href="#autor" target="_blank">Autor</a>
 </p>
@@ -70,8 +71,8 @@
 
 ### Validação, GeekHub.Validation
 - Foi criada uma classe que herda da classe Exception com o propósito de validar as entidades do modelo de domínio, garantindo a integridade dos dados.
+<h2 align="center">Como Reproduzir</h2>
 
-## Como Reproduzir
 ### Passo 1: Instalar as Ferramentas Necessárias
 
 Certifique-se de ter as seguintes ferramentas instaladas:
