@@ -35,7 +35,9 @@
 [Front-End](https://github.com/IsaquePemasi/GeekHub)
 </br>
 [IAs](https://github.com/IsaquePemasi/GeekHubIA)
+
 <h2 align="center">Ferramentas e padrões de desenvolvimento utilizados</h2>
+
 - C#
 - AspNetCore
 - Dotnet 7
@@ -49,6 +51,7 @@
 - CORS
 - AutoMapper 
 - EntityFrameWork
+  
 <h2 align="center">Compreendendo a Estrutura da Aplicação</h2>
 
 ### Contexto, GeekHub.Context
