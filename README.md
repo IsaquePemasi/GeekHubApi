@@ -51,7 +51,7 @@
 - CORS
 - AutoMapper 
 - EntityFrameWork
-  
+
 <h2 align="center">Compreendendo a Estrutura da Aplicação</h2>
 
 ### Contexto, GeekHub.Context
