@@ -22,7 +22,7 @@
 
 <h2 align="center">Sobre o Projeto</h2> 
 
-- O GeekHub API faz parte de um conjunto de três projetos, desenvolvidos para a avaliação final da 6ª Academia de .NET. O projeto Final consiste de três aplicações (Front-End, Back-End e IA, para fazer conexão com ChatGPT e Gerador de imagens) que trabalham em conjunto, neste repositório encontra-se a parte API do Projeto, feita com ASPNET CORE.
+- O GeekHub API faz parte de um conjunto de 3 projetos, desenvolvidos para a avaliação final da 6ª Academia de .NET. O projeto Final consiste de 3 aplicações (Front-End, Back-End e IA, para fazer conexão com ChatGPT, DALL-E e Speech Service) que trabalham em conjunto. Neste repositório encontra-se a parte API do Projeto, feita com ASPNET CORE.
 
 - O Back-End consiste de 8 pastas (Context, Controllers, DTOs, Entities, Mappings, Migrations, Repositories e Validation) que compõem uma API REST Sobre o Universo de Mangás e HQs, esta aplicação possui os dados dos mangás e/ou HQs presentes no GeekHub. A aplicação também possui um CRUD onde pode-se cadastrar, editar e remover novas HQs e/ou mangás. Essa aplicação utiliza Autenticação via Token JWT Bearer e CORS. Para realizar o cadastro, edição ou exclusão de HQs e/ou mangás será necessário estar autenticado na aplicação, para isso você  pode criar uma nova conta informando email e senha.
   
