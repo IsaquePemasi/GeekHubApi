@@ -51,6 +51,7 @@
 - CORS
 - AutoMapper 
 - EntityFrameWork
+- SQL Server
 
 <h2 align="center">Compreendendo a Estrutura da Aplicação</h2>
 
