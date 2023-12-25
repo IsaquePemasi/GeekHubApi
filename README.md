@@ -52,6 +52,7 @@
 - AutoMapper 
 - EntityFrameWork
 - SQL Server
+- API REST
 
 <h2 align="center">Compreendendo a Estrutura da Aplicação</h2>
 
