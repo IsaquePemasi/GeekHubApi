@@ -24,7 +24,7 @@ namespace ApiMangas.Controllers
                                  [FromForm] IEnumerable<IFormFile> files)
         {
             var numeroMaximoArquivos = 3;
-            long tamanhoMaximoArquivo = 1024 * 100;//102400 bytes ou 100KB
+            long tamanhoMaximoArquivo = 1024 * 100; //102400 bytes ou 100KB
             var arquivoProcessados = 0;
             var resourcePath = new Uri($"{Request.Scheme}://{Request.Host}/");
             List<UploadResult> resultadoUploads = new();

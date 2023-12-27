@@ -16,6 +16,7 @@ public interface IRepository<T> : IDisposable where T : Entity
     //(predicate) fornecido como argumento. O predicado será aplicado
     //à entidade T, que é o tipo genérico usado no método, para filtrar
     //os resultados da busca.
+
     Task<IEnumerable<T>>
         SearchAsync(Expression<Func<T, bool>> predicate);
 }

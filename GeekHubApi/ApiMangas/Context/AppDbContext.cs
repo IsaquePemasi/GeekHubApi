@@ -61,6 +61,5 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
         // estrangeiras como null nas entidades referenciadas.
         foreach (var relationship in builder.Model.GetEntityTypes()
                 .SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
-
     }
 }
